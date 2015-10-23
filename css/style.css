@@ -1,0 +1,99 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Droid Serif", Serif;
+	font-size: 15px;
+}
+/**FONTS**/
+@font-face {
+	font-family: Elegant;
+	src: url('../fonts/elegant_white.ttf');
+}
+
+@font-face {
+	font-family: Grunge;
+	src: url('../fonts/grunge.ttf');
+}
+
+@font-face {
+	font-family: Simple;
+	src: url('../fonts/simple.ttf');
+}
+
+/**INDEX**/
+.main_content {
+	position: absolute;
+	top: 6em;
+	right: 4em;
+	color: #fff;
+	font-size: 35px;
+}
+
+#main_names {
+	font-family : Elegant;
+	padding-bottom: .5em;
+	text-align: center;
+	font-size: 90px;
+}
+
+#main_subject {
+	font-family : Grunge;
+	padding-bottom: 1em;
+	text-align: center;
+	font-size: 40px;
+}
+
+#main_date {
+	font-family : Simple;
+	padding-bottom: 1em;
+	text-align: center;
+	font-size: 90px;
+}
+
+.demo-layout-transparent-index {
+    background: url('../images/joe_nikki_main.jpg') center / cover;
+}
+
+.demo-layout-transparent-story {
+    background: url('../images/joe_nikki2.jpg') center / cover;
+}
+
+.demo-layout-transparent-reg {
+    background: url('../images/joe_nikki3.jpg') center / cover;
+}
+
+.demo-layout-transparent-rsvp {
+    background: url('../images/joe_nikki4.jpg') center / cover;
+}
+
+.demo-layout-transparent-wed {
+    background: url('../images/joe_nikki5.jpg') center / cover;
+}
+
+.demo-layout-transparent-contact {
+    background: url('../images/joe_nikki6.jpg') center / cover;
+}
+
+.demo-card-event.mdl-card {
+	width: 300px;
+	position: absolute;
+	top: 6em;
+	right: 4em;
+}
+
+.demo-card-event > .mdl-card__title {
+  align-items: flex-start;
+}
+.demo-card-event > .mdl-card__title > h4 {
+  margin-top: 0;
+}
+.demo-card-event > .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
