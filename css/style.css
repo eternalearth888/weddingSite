@@ -8,7 +8,9 @@ body {
 	padding: 0;
 	font-family: "Droid Serif", Serif;
 	font-size: 15px;
+	background: rgba(0, 0, 0, .5);
 }
+
 /**FONTS**/
 @font-face {
 	font-family: Elegant;
@@ -28,72 +30,133 @@ body {
 /**INDEX**/
 .main_content {
 	position: absolute;
-	top: 6em;
-	right: 4em;
-	color: #fff;
-	font-size: 35px;
+	top: 5em;
+	right: 5em;
 }
 
 #main_names {
 	font-family : Elegant;
-	padding-bottom: .5em;
 	text-align: center;
-	font-size: 90px;
+	font-size: 100px;
 }
 
 #main_subject {
-	font-family : Grunge;
+	font-family : Simple;
+	padding-top: 1em;
 	padding-bottom: 1em;
 	text-align: center;
-	font-size: 40px;
+	font-size: 75px;
 }
 
 #main_date {
-	font-family : Simple;
-	padding-bottom: 1em;
+	font-family : Grunge;
 	text-align: center;
-	font-size: 90px;
+	font-size: 60px;
+	padding-bottom: 1em;
 }
 
-.demo-layout-transparent-index {
-    background: url('../images/joe_nikki_main.jpg') center / cover;
+/**LAYOUT**/
+.demo-layout-transparent {
+  background: url('../images/joe_nikki_main.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
 }
 
-.demo-layout-transparent-story {
-    background: url('../images/joe_nikki2.jpg') center / cover;
+
+/**INDEX - WIDE CARD**/
+.demo-card-wide-index.mdl-card {
+  width: 512px;
+}
+.demo-card-wide-index > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../images/main_background.jpg') center / cover;
 }
 
-.demo-layout-transparent-reg {
-    background: url('../images/joe_nikki3.jpg') center / cover;
+.demo-card-wide-index > .mdl-card__menu {
+  color: #fff;
 }
 
-.demo-layout-transparent-rsvp {
-    background: url('../images/joe_nikki4.jpg') center / cover;
+/**STORY - WIDE CARD**/
+.demo-card-wide-story.mdl-card {
+  width: 512px;
 }
 
-.demo-layout-transparent-wed {
-    background: url('../images/joe_nikki5.jpg') center / cover;
+.demo-card-wide-story > .mdl-card__title > h2 {
+  color: #fff;
 }
 
-.demo-layout-transparent-contact {
-    background: url('../images/joe_nikki6.jpg') center / cover;
+.demo-card-wide-story > .mdl-card__title {
+  align-items: flex-start;
+  height: 350px;
+  background: url('../images/joe_nikki.jpg') center / cover;
 }
 
+.demo-card-wide-story > .mdl-card__menu {
+  color: #000;
+}
+
+/**WEDDING - EVENT CARD**/
 .demo-card-event.mdl-card {
-	width: 300px;
-	position: absolute;
-	top: 6em;
-	right: 4em;
+  width: 512;
+  height: 500px;
 }
-
+.demo-card-event > .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
 .demo-card-event > .mdl-card__title {
   align-items: flex-start;
+  background: url('../images/joe_nikki2.jpg') center / cover;
 }
 .demo-card-event > .mdl-card__title > h4 {
   margin-top: 0;
+  color: #fff;
 }
+
 .demo-card-event > .mdl-card__actions {
   display: flex;
   box-sizing:border-box;
   align-items: center;
+}
+
+/**RSVP - WIDE CARD**/
+.demo-card-wide-rsvp.mdl-card {
+  width: 512px;
+}
+
+.demo-card-wide-rsvp > .mdl-card__title > h2 {
+  color: #fff;
+}
+
+.demo-card-wide-rsvp > .mdl-card__title {
+  align-items: flex-start;
+  height: 350px;
+  background: url('../images/joe_nikki4.jpg') center / cover;
+}
+
+.demo-card-wide-rsvp > .mdl-card__menu {
+  color: #000;
+}
+
+/**REGISTRIES - WIDE CARD**/
+.demo-card-wide-reg.mdl-card {
+  width: 512px;
+}
+
+.demo-card-wide-reg > .mdl-card__title > h2 {
+  color: #fff;
+}
+
+.demo-card-wide-reg > .mdl-card__title {
+  align-items: flex-start;
+  height: 350px;
+  background: url('../images/joe_nikki3.jpg') center / cover;
+}
+
+.demo-card-wide-reg > .mdl-card__menu {
+  color: #000;
 }

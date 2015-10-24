@@ -1,19 +1,21 @@
-<meta charset="utf-8">
-<title>Joe And Nikki</title>
-<!--[if lt IE 9]> <script src="html5shiv.js"></script> <![endif]-->
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.deep_purple-purple.min.css">
-<script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
-	<div class="demo-layout-transparent-story mdl-layout mdl-js-layout">
-	 <?php include('includes/navigation.php'); ?>
-	  <main class="mdl-layout__content">
-<div class="main_content">
-	Met in College
-</div>
-    </main>
+<?php include('includes/meta.php'); ?>
+  <div class="demo-card-wide-story mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Our Story</h2>
   </div>
-</body>
-</html>
+  <div class="mdl-card__supporting-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Mauris sagittis pellentesque lacus eleifend lacinia...
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href = "./wedding.php" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      The Wedding
+    </a>
+  </div>
+  <div class="mdl-card__menu">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">share</i>
+    </button>
+  </div>
+</div>
+<?php include('includes/end.php'); ?>

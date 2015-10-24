@@ -1,21 +1,17 @@
-<meta charset="utf-8">
-<title>Joe And Nikki</title>
-<!--[if lt IE 9]> <script src="html5shiv.js"></script> <![endif]-->
-<link href="css/style.css" rel="stylesheet" ty pe="text/css">
-<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.deep_purple-purple.min.css" /> 
-<script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
-	<div class="demo-layout-transparent-index mdl-layout mdl-js-layout">
-	 <?php include('includes/navigation.php'); ?>
-	  <main class="mdl-layout__content">
-<div class="main_content">
-	<div id="main_names"> Joe + Nikki </div>
-	<div id="main_subject">ARE GETTING MARRIED</div>
+<?php include('includes/meta.php'); ?>
+<div class="demo-card-wide-index mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text"><div id="main_names"> Joe + Nikki </div></h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <div id="main_subject">ARE GETTING MARRIED!!!</div>
 	<div id="main_date">May 24, 2016</div>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+		<a href = "./story.php" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+			Our Story
+		</a>
+  </div>
+  <?php include('includes/share.php'); ?>
 </div>
-	  </main>
-	</div>
-</body>
-</html>
+<?php include('includes/end.php'); ?>
