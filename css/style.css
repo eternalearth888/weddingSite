@@ -34,6 +34,7 @@ body {
 	top: 5em;
 	right: 5em;
 	height: auto;
+  max-width: 100%;
 }
 
 #main_names {
@@ -103,45 +104,22 @@ body {
 }
 
 
-/**WEDDING - EVENT CARD**/
-.demo-card-event.mdl-card {
-  width: 512;
-  height: 500px;
+/**PROPOSAL - EVENT CARD**/
+.demo-card-wide-proposal.mdl-card {
+ max-width: 100%;
+ width: 512px;
 }
-.demo-card-event > .mdl-card__actions {
-  border-color: rgba(255, 255, 255, 0.2);
-}
-.demo-card-event > .mdl-card__title {
-  align-items: flex-start;
-  background: url('../images/joe_nikki2.jpg') center / cover;
-}
-.demo-card-event > .mdl-card__title > h4 {
-  margin-top: 0;
+
+.demo-card-wide-proposal > .mdl-card__title > h2 {
   color: #fff;
 }
 
-.demo-card-event > .mdl-card__actions {
-  display: flex;
-  box-sizing:border-box;
-  align-items: center;
-}
-
-/**RSVP - WIDE CARD**/
-.demo-card-wide-rsvp.mdl-card {
-  width: 512px;
-}
-
-.demo-card-wide-rsvp > .mdl-card__title > h2 {
-  color: #fff;
-}
-
-.demo-card-wide-rsvp > .mdl-card__title {
+.demo-card-wide-proposal > .mdl-card__title {
   align-items: flex-start;
   height: 350px;
-  background: url('../images/joe_nikki4.jpg') center / cover;
 }
 
-.demo-card-wide-rsvp > .mdl-card__menu {
+.demo-card-wide-proposal > .mdl-card__menu {
   color: #000;
 }
 
