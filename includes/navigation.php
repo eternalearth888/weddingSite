@@ -1,3 +1,11 @@
+ <!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Joe And Nikki</span>
+      <!-- Add spacer, to align navigation to the right -->
+    </header>
  <div class="mdl-layout__drawer">
 	<span class="mdl-layout-title">Joe And Nikki</span>
 	<nav class="mdl-navigation">

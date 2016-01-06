@@ -72,7 +72,7 @@ body {
 
 /**INDEX - WIDE CARD**/
 .demo-card-wide-index.mdl-card {
-  width: 512px;
+	width: 512px;
 }
 .demo-card-wide-index > .mdl-card__title {
   color: #fff;
@@ -87,6 +87,7 @@ body {
 /**STORY - WIDE CARD**/
 .demo-card-wide-story.mdl-card {
   width: 512px;
+  padding: .5em;
 }
 
 .demo-card-wide-story > .mdl-card__title > h2 {
