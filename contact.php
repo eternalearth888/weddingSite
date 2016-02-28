@@ -1,5 +1,5 @@
 <?php include('includes/meta.php'); ?>
-<div class="demo-card-wide-reg mdl-card mdl-shadow--2dp">
+<div class="demo-card-wide-con mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Contact Us</h2>
   </div>

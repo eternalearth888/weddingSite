@@ -8,5 +8,10 @@
       RSVP To The Wedding
     </a>
   </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href = "./photos.php" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      See Engagement Photos!
+    </a>
+  </div>
   </div>
 <?php include('includes/end.php'); ?>
