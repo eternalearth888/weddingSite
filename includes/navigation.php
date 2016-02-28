@@ -16,5 +16,6 @@
 		<a class="mdl-navigation__link" href="registries.php">Registries</a>
 		<a class="mdl-navigation__link" href="contact.php">Contact Us</a>
 		<a class="mdl-navigation__link" href="directions.php">Directions to Venue</a>
+		<a class="mdl-navigation__link" href="hotels.php">Hotel Accomadations</a>
 	</nav>
 </div>
