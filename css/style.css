@@ -121,17 +121,17 @@ body {
 .demo-card-wide-reg > .mdl-card__title {
   align-items: flex-start;
   height: 350px;
-  background: url('../images/joe_nikki3.jpg') center / cover;
+  background: url('../images/joe_nikki6.jpg') center / cover;
 }
 
 .demo-card-wide-reg > .mdl-card__menu {
   color: #000;
 }
 
-.demo-card-wide-reg-contact > .mdl-card__title {
+.demo-card-wide-reg > .mdl-card__title {
   align-items: flex-start;
   height: 350px;
-  background: url('../images/joe_nikki4.jpg') center / cover;
+  background: url('../images/joe_nikki6.jpg') center / cover;
 }
 
 /**CONTACT - WIDE CARD**/
@@ -187,7 +187,6 @@ body {
   height: 350px;
   background: url('../images/joe_nikki4.jpg') center / cover;
 }
-
 
 /**STORY - WIDE CARD**/
 .demo-card-wide-story.mdl-card {
